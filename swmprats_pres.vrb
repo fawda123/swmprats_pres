@@ -1,0 +1,15 @@
+\frametitle{\includegraphics [width=0.05\paperwidth ]{fig/muskrat.png}\hspace {0.07in}{\bf Continuing work and engagement}}
+\begin{columns}
+\begin{column}{0.53\textwidth}
+\centerline{\fbox{\includegraphics[width = \textwidth]{fig/swmprats_logo.png}}}
+\end{column}
+\begin{column}{0.43 \textwidth}
+\centerline{\fbox{\includegraphics[width = 0.78\textwidth]{fig/swmpr_logo.png}}}
+\end{column}
+\end{columns}
+\vspace{0.2in}
+Contacts: \includegraphics[width=0.05\paperwidth]{fig/muskrat2.png}\hspace{0.05in}\href{mailto:beck.marcus@epa.gov}{beck.marcus@epa.gov}, \includegraphics[width=0.05\paperwidth]{fig/muskrat2.png}\hspace{0.05in}\href{mailto:todd.obrien@noaa.gov}{todd.obrien@noaa.gov} \\~\\
+To get this presentation: \href{https://github.com/fawda123/swmprats_pres}{https://github.com/fawda123/swmprats\_pres} \\~\\
+Summary app: \href{http://swmprats.net/swmp-widgets/summary-plots}{http://swmprats.net/swmp-widgets/summary-plots} \\~\\
+Trends map app: \href{http://swmprats.net/swmp-widgets/trends-maps}{http://swmprats.net/swmp-widgets/trends-maps} \\~\\
+Visit the development site for the most recent version of SWMPr: \href{https://github.com/fawda123/SWMPr}{https://github.com/fawda123/SWMPr}\\~\\
