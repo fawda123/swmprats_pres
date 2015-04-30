@@ -127,7 +127,7 @@ options(replace.assign = TRUE, width = 60, digits = 1)
 
 %%%%%%
 \begin{frame}{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf Genesis of SWMPrats}}
-As of April 29th, $>$ 58 million SWMP data records available on CDMO \\~\\
+As of April 30th, $>$ 58 million SWMP data records are available\\~\\
 An invaluable data source but...\\~\\
 \begin{itemize}
 \item No recent comparative analyses between systems \\~\\
@@ -153,10 +153,10 @@ One-day training workshop at 2014 annual meeting \\~\\
 \centerline{\fbox{\includegraphics[width = 0.95\textwidth]{fig/swmprats_logo.png}}}
 \vspace{0.2in}
 A working group was formed from this meeting \\~\\
-\large
-\Bigtxt{S}ystem-\Bigtxt{W}ide \Bigtxt{M}onitoring \Bigtxt{P}rogram \Bigtxt{R} \Bigtxt{A}nd \Bigtxt{T}ime \Bigtxt{S}eries \\~\\
+\Large
+\Bigtxt{S}ystem-\Bigtxt{W}ide \Bigtxt{M}onitoring \Bigtxt{P}rogram \Bigtxt{R}esources for the \Bigtxt{A}nalysis of \Bigtxt{T}ime \Bigtxt{S}eries \\~\\
 \normalsize
-SWMPrats.net is our base of operations...
+\href{http://swmprats.net}{SWMPrats.net} is our base of operations...
 \end{frame}
 
 %%%%%%
@@ -177,60 +177,6 @@ install.packages('SWMPr')
 library(SWMPR)
 @
 Currently working on a manuscript to describe the package in detail
-\end{frame}
-
-%%%%%%
-\begin{frame}[fragile]{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf SWMPrats.net: The SWMPr package}}
-SWMPr functions are grouped into three categories that describe their use in the `data workflow'
-\vspace{-0.2in}
-\begin{columns}[t]
-\begin{column}{0.3\textwidth}
-\begin{center}
-\Bigtxt{Retrieve}\\~\\
-\small{
-\texttt{all\_params}\\
-\texttt{all\_params_dtrng}\\
-\texttt{import\_local}\\
-\texttt{import\_remote}\\
-\texttt{single\_param}\\
-\texttt{site\_codes}\\
-\texttt{site\_codes\_ind}
-}
-\end{center}
-\end{column}
-\begin{column}{0.3\textwidth}
-\begin{center}
-\Bigtxt{Organize}\\~\\
-\small{
-\texttt{comb}\\
-\texttt{qaqc}\\
-\texttt{qaqcchk}\\
-\texttt{rem\_reps}\\
-\texttt{setstep}\\
-\texttt{subset}
-}
-\end{center}
-\end{column}
-\begin{column}{0.3\textwidth}
-\begin{center}
-\Bigtxt{Analyze}\\~\\
-\small{
-\texttt{aggreswmp}\\
-\texttt{aggremetab}\\
-\texttt{ecometab}\\
-\texttt{decomp}\\
-\texttt{decomp\_cj}\\
-\texttt{hist}\\
-\texttt{lines}\\
-\texttt{na.approx}\\
-\texttt{plot}\\
-\texttt{plot\_metab}\\
-\texttt{plot\_summary}\\
-\texttt{smoother}
-}
-\end{center}
-\end{column}
-\end{columns}
 \end{frame}
 
 %%%%%%
@@ -259,7 +205,7 @@ wq <- import_remote('apacpwq')
 dat <- comb(met, wq, timestep = 120, 
   method = 'intersect')
 @
-Try this with excel...
+Try this with Excel...
 \end{frame}
 
 %%%%%
@@ -355,8 +301,8 @@ Two apps on SWMPrats.net can help visualize trends \\~\\
 \begin{frame}[fragile]{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf Continuing work and engagement}}
 SWMPrats.net is in its infancy but already seeing heavy use \\~\\
 \begin{itemize}
-\item SWMPr downloaded 289 times from R network (as of April 29) \\~\\
-\item Apps have been used 345 hours (as of April 29) \\~\\
+\item SWMPr downloaded 306 times from R network (as of April 30) \\~\\
+\item Apps have been used 347 hours (as of April 30) \\~\\
 \end{itemize}
 Continuing development of packages/apps - submit suggestions/bug reports via email or on \href{https://github.com/fawda123/SWMPr/issues}{GitHub} (preferred) \\~\\
 Plan for greater engagement with the forum - soliciting moderators, suggested topics \\~\\

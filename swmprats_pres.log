@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.29)  30 APR 2015 10:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.29)  30 APR 2015 14:24
 entering extended mode
 **swmprats_pres.tex
 (M:\presentations\swmprats_pres\swmprats_pres.tex
@@ -1552,7 +1552,7 @@ Package pdftex.def Info: fig/back_tmp.pdf used on input line 158.
  [5
 
 ]
-<fig/swmprats_home.png, id=183, 719.68875pt x 546.54187pt>
+<fig/swmprats_home.png, id=184, 719.68875pt x 546.54187pt>
 File: fig/swmprats_home.png Graphic file (type png)
 
 <use fig/swmprats_home.png>
@@ -1571,7 +1571,7 @@ Package pdftex.def Info: fig/back_tmp.pdf used on input line 165.
 
  <M:/presentations/swmprats_pres/fig/swmprats_home.png>]
 (M:\presentations\swmprats_pres\swmprats_pres.vrb
-<fig/swmpr_logo.png, id=210, 660.066pt x 209.583pt>
+<fig/swmpr_logo.png, id=211, 660.066pt x 209.583pt>
 File: fig/swmpr_logo.png Graphic file (type png)
  <use fig/swmpr_logo.png>
 Package pdftex.def Info: fig/swmpr_logo.png used on input line 2.
@@ -1595,11 +1595,11 @@ s_pres\swmprats_pres.vrb)
 File: fig/muskrat.png Graphic file (type png)
 
 <use fig/muskrat.png>
-Package pdftex.def Info: fig/muskrat.png used on input line 236.
+Package pdftex.def Info: fig/muskrat.png used on input line 195.
 (pdftex.def)             Requested size: 18.21088pt x 13.87004pt.
 File: fig/back_tmp.pdf Graphic file (type pdf)
  <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf used on input line 236.
+Package pdftex.def Info: fig/back_tmp.pdf used on input line 195.
 (pdftex.def)             Requested size: 364.20192pt x 273.15337pt.
  [8
 
@@ -1607,36 +1607,23 @@ Package pdftex.def Info: fig/back_tmp.pdf used on input line 236.
 (M:\presentations\swmprats_pres\swmprats_pres.vrb)
 File: fig/muskrat.png Graphic file (type png)
  <use fig/muskrat.png>
-Package pdftex.def Info: fig/muskrat.png used on input line 249.
+Package pdftex.def Info: fig/muskrat.png used on input line 215.
 (pdftex.def)             Requested size: 18.21088pt x 13.87004pt.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf used on input line 249.
+Package pdftex.def Info: fig/back_tmp.pdf used on input line 215.
 (pdftex.def)             Requested size: 364.20192pt x 273.15337pt.
  [9
 
-] (M:\presentations\swmprats_pres\swmprats_pres.vrb)
-File: fig/muskrat.png Graphic file (type png)
-
-<use fig/muskrat.png>
-Package pdftex.def Info: fig/muskrat.png used on input line 269.
-(pdftex.def)             Requested size: 18.21088pt x 13.87004pt.
-File: fig/back_tmp.pdf Graphic file (type pdf)
- <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf used on input line 269.
-(pdftex.def)             Requested size: 364.20192pt x 273.15337pt.
- [10
-
-]
-(M:\presentations\swmprats_pres\swmprats_pres.vrb
-<fig//filled-1.pdf, id=320, 578.16pt x 144.54pt>
+] (M:\presentations\swmprats_pres\swmprats_pres.vrb
+<fig//filled-1.pdf, id=295, 578.16pt x 144.54pt>
 File: fig//filled-1.pdf Graphic file (type pdf)
  <use fig//filled-1.pdf>
 Package pdftex.def Info: fig//filled-1.pdf used on input line 6.
 (pdftex.def)             Requested size: 290.9531pt x 72.73737pt.
 
-<fig//smooth-1.pdf, id=321, 578.16pt x 144.54pt>
+<fig//smooth-1.pdf, id=296, 578.16pt x 144.54pt>
 File: fig//smooth-1.pdf Graphic file (type pdf)
  <use fig//smooth-1.pdf>
 Package pdftex.def Info: fig//smooth-1.pdf used on input line 17.
@@ -1645,18 +1632,18 @@ Package pdftex.def Info: fig//smooth-1.pdf used on input line 17.
 File: fig/muskrat.png Graphic file (type png)
 
 <use fig/muskrat.png>
-Package pdftex.def Info: fig/muskrat.png used on input line 295.
+Package pdftex.def Info: fig/muskrat.png used on input line 241.
 (pdftex.def)             Requested size: 18.21088pt x 13.87004pt.
 File: fig/back_tmp.pdf Graphic file (type pdf)
  <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf used on input line 295.
+Package pdftex.def Info: fig/back_tmp.pdf used on input line 241.
 (pdftex.def)             Requested size: 364.20192pt x 273.15337pt.
- [11
+ [10
 
  <M:/presentations/swmprats_pres/fig//filled-1.pdf> <M:/presentations/swmprats_
 pres/fig//smooth-1.pdf>]
 (M:\presentations\swmprats_pres\swmprats_pres.vrb
-<fig/decomp_dep-1.pdf, id=358, 578.16pt x 361.35pt>
+<fig/decomp_dep-1.pdf, id=333, 578.16pt x 361.35pt>
 File: fig/decomp_dep-1.pdf Graphic file (type pdf)
  <use fig/decomp_dep-1.pdf>
 Package pdftex.def Info: fig/decomp_dep-1.pdf used on input line 6.
@@ -1664,24 +1651,24 @@ Package pdftex.def Info: fig/decomp_dep-1.pdf used on input line 6.
 )
 File: fig/muskrat.png Graphic file (type png)
 <use fig/muskrat.png>
-Package pdftex.def Info: fig/muskrat.png used on input line 310.
+Package pdftex.def Info: fig/muskrat.png used on input line 256.
 (pdftex.def)             Requested size: 18.21088pt x 13.87004pt.
 File: fig/back_tmp.pdf Graphic file (type pdf)
  <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf used on input line 310.
+Package pdftex.def Info: fig/back_tmp.pdf used on input line 256.
 (pdftex.def)             Requested size: 364.20192pt x 273.15337pt.
- [12
+ [11
 
  <M:/presentations/swmprats_pres/fig/decomp_dep-1.pdf>] (M:\presentations\swmpr
 ats_pres\swmprats_pres.vrb
-<fig//ecometab1-1.pdf, id=393, 578.16pt x 180.675pt>
+<fig//ecometab1-1.pdf, id=368, 578.16pt x 180.675pt>
 File: fig//ecometab1-1.pdf Graphic file (type pdf)
 
 <use fig//ecometab1-1.pdf>
 Package pdftex.def Info: fig//ecometab1-1.pdf used on input line 7.
 (pdftex.def)             Requested size: 325.17949pt x 101.6184pt.
 
-<fig//ecometab2-1.pdf, id=394, 578.16pt x 180.675pt>
+<fig//ecometab2-1.pdf, id=369, 578.16pt x 180.675pt>
 File: fig//ecometab2-1.pdf Graphic file (type pdf)
 
 <use fig//ecometab2-1.pdf>
@@ -1690,26 +1677,26 @@ Package pdftex.def Info: fig//ecometab2-1.pdf used on input line 17.
 )
 File: fig/muskrat.png Graphic file (type png)
  <use fig/muskrat.png>
-Package pdftex.def Info: fig/muskrat.png used on input line 336.
+Package pdftex.def Info: fig/muskrat.png used on input line 282.
 (pdftex.def)             Requested size: 18.21088pt x 13.87004pt.
 File: fig/back_tmp.pdf Graphic file (type pdf)
  <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf used on input line 336.
+Package pdftex.def Info: fig/back_tmp.pdf used on input line 282.
 (pdftex.def)             Requested size: 364.20192pt x 273.15337pt.
 
-[13
+[12
 
  <M:/presentations/swmprats_pres/fig//ecometab1-1.pdf> <M:/presentations/swmpra
 ts_pres/fig//ecometab2-1.pdf>]
 (M:\presentations\swmprats_pres\swmprats_pres.vrb
-<fig/swmp_summary.png, id=435, 938.75719pt x 697.10437pt>
+<fig/swmp_summary.png, id=409, 938.75719pt x 697.10437pt>
 File: fig/swmp_summary.png Graphic file (type png)
 
 <use fig/swmp_summary.png>
 Package pdftex.def Info: fig/swmp_summary.png used on input line 8.
 (pdftex.def)             Requested size: 138.6277pt x 102.93369pt.
 
-<fig/swmp_comp.png, id=437, 941.76843pt x 672.26157pt>
+<fig/swmp_comp.png, id=411, 941.76843pt x 672.26157pt>
 File: fig/swmp_comp.png Graphic file (type png)
  <use fig/swmp_comp.png>
 Package pdftex.def Info: fig/swmp_comp.png used on input line 12.
@@ -1717,18 +1704,18 @@ Package pdftex.def Info: fig/swmp_comp.png used on input line 12.
 )
 File: fig/muskrat.png Graphic file (type png)
 <use fig/muskrat.png>
-Package pdftex.def Info: fig/muskrat.png used on input line 353.
+Package pdftex.def Info: fig/muskrat.png used on input line 299.
 (pdftex.def)             Requested size: 18.21088pt x 13.87004pt.
 File: fig/back_tmp.pdf Graphic file (type pdf)
  <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf used on input line 353.
+Package pdftex.def Info: fig/back_tmp.pdf used on input line 299.
 (pdftex.def)             Requested size: 364.20192pt x 273.15337pt.
- [14
+ [13
 
  <M:/presentations/swmprats_pres/fig/swmp_summary.png> <M:/presentations/swmpra
 ts_pres/fig/swmp_comp.png>]
 (M:\presentations\swmprats_pres\swmprats_pres.vrb
-<fig/swmprats_forum.png, id=465, 717.43031pt x 459.96844pt>
+<fig/swmprats_forum.png, id=440, 717.43031pt x 459.96844pt>
 File: fig/swmprats_forum.png Graphic file (type png)
 
 <use fig/swmprats_forum.png>
@@ -1737,27 +1724,27 @@ Package pdftex.def Info: fig/swmprats_forum.png used on input line 4.
 )
 File: fig/muskrat.png Graphic file (type png)
  <use fig/muskrat.png>
-Package pdftex.def Info: fig/muskrat.png used on input line 360.
+Package pdftex.def Info: fig/muskrat.png used on input line 306.
 (pdftex.def)             Requested size: 18.21088pt x 13.87004pt.
 File: fig/back_tmp.pdf Graphic file (type pdf)
  <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf used on input line 360.
+Package pdftex.def Info: fig/back_tmp.pdf used on input line 306.
 (pdftex.def)             Requested size: 364.20192pt x 273.15337pt.
 
-[15
+[14
 
  <M:/presentations/swmprats_pres/fig/swmprats_forum.png>]
 (M:\presentations\swmprats_pres\swmprats_pres.vrb)
 File: fig/muskrat.png Graphic file (type png)
  <use fig/muskrat.png>
-Package pdftex.def Info: fig/muskrat.png used on input line 372.
+Package pdftex.def Info: fig/muskrat.png used on input line 318.
 (pdftex.def)             Requested size: 18.21088pt x 13.87004pt.
 File: fig/back_tmp.pdf Graphic file (type pdf)
 
 <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf used on input line 372.
+Package pdftex.def Info: fig/back_tmp.pdf used on input line 318.
 (pdftex.def)             Requested size: 364.20192pt x 273.15337pt.
- [16
+ [15
 
 ] (M:\presentations\swmprats_pres\swmprats_pres.vrb
 File: fig/swmprats_logo.png Graphic file (type png)
@@ -1770,7 +1757,7 @@ File: fig/swmpr_logo.png Graphic file (type png)
 Package pdftex.def Info: fig/swmpr_logo.png used on input line 7.
 (pdftex.def)             Requested size: 114.8037pt x 36.45052pt.
 
-<fig/muskrat2.png, id=518, 434.37282pt x 330.48468pt>
+<fig/muskrat2.png, id=493, 434.37282pt x 330.48468pt>
 File: fig/muskrat2.png Graphic file (type png)
  <use fig/muskrat2.png>
 Package pdftex.def Info: fig/muskrat2.png used on input line 11.
@@ -1783,25 +1770,25 @@ Package pdftex.def Info: fig/muskrat2.png used on input line 11.
 )
 File: fig/muskrat.png Graphic file (type png)
  <use fig/muskrat.png>
-Package pdftex.def Info: fig/muskrat.png used on input line 390.
+Package pdftex.def Info: fig/muskrat.png used on input line 336.
 (pdftex.def)             Requested size: 18.21088pt x 13.87004pt.
 File: fig/back_tmp.pdf Graphic file (type pdf)
  <use fig/back_tmp.pdf>
-Package pdftex.def Info: fig/back_tmp.pdf used on input line 390.
+Package pdftex.def Info: fig/back_tmp.pdf used on input line 336.
 (pdftex.def)             Requested size: 364.20192pt x 273.15337pt.
-Package atenddvi Info: Last page = 17.
- [17
+Package atenddvi Info: Last page = 16.
+ [16
 
  <M:/presentations/swmprats_pres/fig/muskrat2.png>]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 393.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 393.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 339.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 339.
 
 (M:\presentations\swmprats_pres\swmprats_pres.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 393.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 393.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 339.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 339.
 Package rerunfilecheck Info: File `swmprats_pres.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1809,14 +1796,14 @@ Package rerunfilecheck Info: File `swmprats_pres.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 393.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 339.
  ) 
 Here is how much of TeX's memory you used:
- 28152 strings out of 493921
- 558592 string characters out of 3147282
- 672703 words of memory out of 3000000
- 30740 multiletter control sequences out of 15000+200000
- 11673 words of font info for 45 fonts, out of 3000000 for 9000
+ 28143 strings out of 493921
+ 558419 string characters out of 3147282
+ 670703 words of memory out of 3000000
+ 30735 multiletter control sequences out of 15000+200000
+ 10900 words of font info for 42 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  49i,16n,73p,475b,567s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
@@ -1829,9 +1816,9 @@ ic/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pf
 b>
-Output written on swmprats_pres.pdf (17 pages, 4119782 bytes).
+Output written on swmprats_pres.pdf (16 pages, 4112546 bytes).
 PDF statistics:
- 591 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
+ 566 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
  220 words of extra memory for PDF output out of 10000 (max. 10000000)
 
