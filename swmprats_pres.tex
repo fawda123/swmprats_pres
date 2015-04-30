@@ -105,13 +105,14 @@
 
 %%%%%%
 \begin{frame}
+\vspace{-0.1in}
 \titlepage
 \end{frame}
 
 %%%%%%
 \begin{frame}{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf Overview}}
 \begin{itemize}
-\item The genesis of SWMPrats \\~\\
+\item The genesis of SWMPrats.net\\~\\
 \item Features of SWMPrats.net \\~\\
 \begin{itemize}
 \item SWMPr \\~\\
@@ -150,21 +151,24 @@ One-day training workshop at 2014 annual meeting \\~\\
 \centerline{\fbox{\includegraphics[width = 0.95\textwidth]{fig/swmprats_logo.png}}}
 \vspace{0.2in}
 A working group was formed from this meeting \\~\\
+\large
 \Bigtxt{S}ystem-\Bigtxt{W}ide \Bigtxt{M}onitoring \Bigtxt{P}rogram \Bigtxt{R} \Bigtxt{A}nd \Bigtxt{T}ime \Bigtxt{S}eries \\~\\
+\normalsize
 SWMPrats.net is our base of operations...
 \end{frame}
 
 %%%%%%
 \begin{frame}{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf SWMPrats.net}}
-\centerline{A time series and data analysis information and tool resource} \\~\\
+\centerline{A time series and data analysis information and tool resource}
+\hspace{0.2in}
 \centerline{\fbox{\includegraphics[width = 0.7\textwidth]{fig/swmprats_home.png}}}
 \end{frame}
 
 %%%%%%
 \begin{frame}[fragile]{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf SWMPrats.net: The SWMPr package}}
-\centerline{\includegraphics[width = 0.8\textwidth]{fig/swmpr_logo.png}}
+\centerline{\includegraphics[width = 0.75\textwidth]{fig/swmpr_logo.png}}
 \vspace{0.15in}
-SWMPr is an open-source R package, v2.0.0 is \href{http://cran.r-project.org/web/packages/SWMPr/index.html}{now available}
+SWMPr is an open-source R package described on the website, v2.0.0 is \href{http://cran.r-project.org/web/packages/SWMPr/index.html}{now available}
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.941, 0.976, 0.91}\color{fgcolor}\begin{kframe}
 \begin{alltt}
@@ -264,67 +268,9 @@ Proof of concept, import and combine wq and weather data from Apalachicola Bay
 Try this with excel...
 \end{frame}
 
-%%%%%%
-\begin{frame}[fragile]{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf SWMPrats.net: The SWMPr package}}
-\begin{knitrout}\small
-\definecolor{shadecolor}{rgb}{0.941, 0.976, 0.91}\color{fgcolor}\begin{kframe}
-\begin{alltt}
-\hlstd{> }\hlkwd{head}\hlstd{(dat,} \hlnum{4}\hlstd{)}
-\end{alltt}
-\begin{verbatim}
-##         datetimestamp temp spcond sal do_pct do_mgl depth
-## 1 2001-12-31 23:00:00   NA     NA  NA     NA     NA    NA
-## 2 2002-01-01 01:00:00   12     37  24    104     10     2
-## 3 2002-01-01 03:00:00   12     40  26     99      9     2
-## 4 2002-01-01 05:00:00   11     42  26     98      9     2
-##   cdepth level clevel ph turb chlfluor atemp rh   bp wspd
-## 1     NA    NA     NA NA   NA       NA     4 69 1017    4
-## 2     NA    NA     NA NA    3       NA     3 75 1017    3
-## 3     NA    NA     NA NA    4       NA     2 77 1018    3
-## 4     NA    NA     NA NA    5       NA     1 82 1019    4
-##   maxwspd wdir sdwdir totpar totprcp totsorad
-## 1      NA  347     NA      0      NA       NA
-## 2      NA    9     NA      0      NA       NA
-## 3      NA  331     NA      0      NA       NA
-## 4      NA    0     NA      0      NA       NA
-\end{verbatim}
-\end{kframe}
-\end{knitrout}
-\end{frame}
-
 %%%%%
 \begin{frame}[fragile]{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf SWMPrats.net: The SWMPr package}}
-Time series analysis can range from very general to very specific \\~\\
-SWMPr functions include...\\~\\
-\begin{columns}
-\begin{column}{0.45\textwidth}
-\Bigtxt{General} \\~\\
-\begin{itemize}
-\item \texttt{na.approx}
-\item \texttt{smoother}
-\item \texttt{aggreswmp}
-\item \texttt{plot}
-\item \texttt{hist}
-\item \texttt{lines}
-\end{itemize}
-\end{column}
-\begin{column}{0.45\textwidth}
-\Bigtxt{Specific} \\~\\
-\begin{itemize}
-\item \texttt{decomp}
-\item \texttt{decomp\_cj}
-\item \texttt{ecometab}
-\item \texttt{aggremetab}
-\item \texttt{plot\_metab}
-\item \texttt{plot\_summary}
-\end{itemize}
-\end{column}
-\end{columns}
-\end{frame}
-
-%%%%%
-\begin{frame}[fragile]{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf SWMPrats.net: The SWMPr package}}
-Fill missing data with \texttt{na.approx} \\~\\
+Example: fill missing data with \texttt{na.approx} \\~\\
 \begin{knitrout}\scriptsize
 \definecolor{shadecolor}{rgb}{0.941, 0.976, 0.91}\color{fgcolor}
 
@@ -335,7 +281,7 @@ Fill missing data with \texttt{na.approx} \\~\\
 
 
 \end{knitrout}
-Smooth data with \texttt{smoother} \\~\\
+Example: smooth data with \texttt{smoother} \\~\\
 \begin{knitrout}\scriptsize
 \definecolor{shadecolor}{rgb}{0.941, 0.976, 0.91}\color{fgcolor}
 
@@ -350,7 +296,7 @@ Smooth data with \texttt{smoother} \\~\\
 
 %%%%%%
 \begin{frame}[fragile]{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf SWMPrats.net: The SWMPr package}}
-Time series decomposition with \texttt{decomp\_cj} (chl-a at cbmocnut)\\~\\
+Example: time series decomposition with \texttt{decomp\_cj} (chl-a at cbmocnut)\\~\\
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.941, 0.976, 0.91}\color{fgcolor}
 
@@ -365,7 +311,7 @@ Time series decomposition with \texttt{decomp\_cj} (chl-a at cbmocnut)\\~\\
 
 %%%%%%
 \begin{frame}[fragile]{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf SWMPrats.net: The SWMPr package}}
-Estimate ecosystem metabolism with \texttt{ecometab} (apadbwq)
+Example: estimate ecosystem metabolism with \texttt{ecometab} (apadbwq)
 
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.941, 0.976, 0.91}\color{fgcolor}
@@ -408,7 +354,8 @@ Two apps on SWMPrats.net can help visualize trends \\~\\
 
 %%%%%%
 \begin{frame}[fragile]{\includegraphics[width=0.05\paperwidth]{fig/muskrat.png}\hspace{0.07in}{\bf SWMPrats.net: Forum}}
-Last but not least, a discussion \href{http://swmprats.net/forum}{forum} for all things analytical \\~\\
+\centerline{Last but not least, a discussion \href{http://swmprats.net/forum}{forum} for all things analytical}
+\vspace{0.2in}
 \centerline{\fbox{\includegraphics[width = 0.8\textwidth]{fig/swmprats_forum.png}}}
 \end{frame}
 
@@ -417,8 +364,8 @@ Last but not least, a discussion \href{http://swmprats.net/forum}{forum} for all
 SWMPrats.net is in its infancy but already seeing heavy use \\~\\
 \begin{itemize}
 \item SWMPr downloaded 289 times from R network (as of April 29) \\~\\
-\item Apps have been used 345 hours (as of April 29)
-\end{itemize}\\~\\
+\item Apps have been used 345 hours (as of April 29) \\~\\
+\end{itemize}
 Continuing development of packages/apps - submit suggestions/bug reports via email or on \href{https://github.com/fawda123/SWMPr/issues}{GitHub} (preferred) \\~\\
 Plan for greater engagement with the forum - soliciting moderators, suggested topics \\~\\
 Additional training workshops??
